@@ -1,0 +1,379 @@
+
+* ul{
+ padding: 0;
+}
+.header{
+    background-color: rgb(48, 51, 215);
+    position: relative;
+}
+
+
+.menu-header{
+    display: flex;
+    font-weight: bold;
+    margin: 0 100px;
+    justify-content: space-between;
+    background-color: gold;
+}
+.menu-header-btn{
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    padding: 15px 5px;
+
+}
+.menu-header-btn>img{
+    height: 30px;
+    
+}
+.menu-header-btn>input{
+    height: 30px;
+    
+}
+.menu-header-btn>a{
+    text-decoration: none;
+    color: black;
+    padding: 0 10px;
+}
+.menu-header-btn>a:hover,.menu-header-btn>a:active,.menu-header-btn>a:hover{
+    color:blue;
+}
+#search-images{
+    border-radius: 0 10px 10px 0;
+}
+.banner-content{
+    display: flex;
+    justify-content: space-between;
+}
+.banner-content>img{
+    height: 290px;
+    transition: all .4s ease-in-out;
+}
+.banner-content>img:hover{
+    transform: scale(1.1);
+}
+.grid-menu>img{
+    height: 30px;
+}
+.menu-line{
+    height: 1px;
+    background-color: black;
+    clear: left;
+}
+.menu-content{
+    margin: 50px 0;
+}
+.content{
+    margin: 50px 100px;
+}
+.grid-menu{
+    float: left;
+}
+.search-menu{
+    display: flex;
+    float:right;
+    height:30px ;
+    align-items: center;
+    justify-content: space-between;
+}
+.products>table{
+    width: 100%;
+    text-align: center;
+}
+.img-products{
+    height: 300px;
+}
+.footer-content{
+    display: flex;
+    color: white;
+    margin: 0 100px;
+    padding: auto;
+    justify-content: space-between;
+}
+.footer{
+    background-color:darkblue;
+}
+
+.info-footer{
+    color: white;
+    text-align: center;
+}
+.footer-line{
+    background-color: black;
+    height: 1px;
+    margin: 10px;
+}
+.col {
+    width: 25%;
+}
+.product-info{
+    display: flex;
+    /* height: 300px; */
+    justify-content: space-between;
+    
+}
+.product-info-images>img{
+    height: 300px;
+transition:all .4s ease-in;
+}
+
+
+
+.product-info-price{
+    display: flex;
+    align-items: center;
+}
+.product-info-price>p{
+    font-weight: bold;
+    text-decoration: underline;
+}
+.product-info-xt{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: all .4s ease-in-out;
+}
+.product-info-xt:hover {
+    transform: scale(1.1);  
+}
+.games-products{
+    display: flex;
+    /* width: 30%; */
+}
+.games-products>div{
+    padding: 10px;
+    border: 1px solid;
+    border-radius: 10px;
+    height: 200px;
+    width: 200px;
+    margin: 10px;
+}
+.games-products>div>img{
+    height: 200px;
+    width: 200px;
+}
+.games{
+    border: 1px solid green;
+    padding: 20px 0;
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+}
+.games-content{
+    /* margin: 0 100px; */
+}
+.users-content{
+    border-top: 1px solid;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    background-color: whitesmoke;
+}
+.users-form{
+    height: 450px;
+    width: 500px;
+    padding: 100px 50px;
+    border-radius: 20px;
+    background-color: white;
+}
+.users-form-Dangki{
+    text-align: center;
+    height: 40px;
+    width: 300px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    padding: 0 100px;
+}
+.users-form-Dangki>input{
+    color: white;
+    width: 100%;
+    height: 40px;
+    background-color: green;
+    border: none;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: larger;
+}
+.users-form-content-input input{
+    line-height: 1.7;
+    width: 400px;
+}
+.users-form-title{
+    text-align: center;
+    font-size: 42px;
+}
+
+
+.users-form-title {
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.users-form-xacnhan {
+    margin-top: 20px;
+    padding-left: 30px;
+}
+.users-form-dieukhoan {
+    margin-top: 20px;
+    text-align: center;
+}
+.users-form-dangnhap {
+    display: flex;
+    align-items: center;
+    justify-content:end;
+}
+.tk-content{
+        border-top: 1px solid;
+        padding: 50px;
+        display: flex;
+        justify-content: center;
+        background-color: whitesmoke;
+}
+.users-form-dangnhap>a{
+    color: green;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+@media only screen and (max-width:420px) {
+    .header {
+        width: 400px;
+    }
+}
+
+
+.header-new{
+    background-color: #163017;
+  
+}
+
+.header-new-logo{
+    max-width: 1330px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-new-search {
+    position: relative;
+}
+
+.header-new-search,.header-new-cart{
+    display: flex;
+    align-items: center;
+}
+
+.header-new-cart input,.header-new-search input{
+    height: 30px;
+    padding: 5px;
+}
+.header-new-cart input{
+    border-radius: 20px;
+
+}
+
+.header-new-menu-container{
+    background-color: rgba(58, 71, 84, 1);
+}
+
+.header-new-menu-container ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    max-width: 1000px;
+    align-items: center;
+    height: 50px;
+    color: white;
+    font-size: 18.5px;
+    margin:0 auto ;
+    font-weight: 700
+}
+
+.header-new-menu-container > ul > li:first-child{
+    color: yellow;
+}
+
+.header-new-menu-container > ul > li:not(:first-child):hover{
+    color: red;
+    transition: all .2s
+}
+
+.header-new-search::before{
+    content: "All";
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    width: 50px;
+    height: 45px;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    background-color: rgba(20, 102, 120, 1);
+}
+
+.header-new-search::after{
+    content: "search    ";
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    width: 50px;
+    height: 45px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    background-color: rgba(20, 102, 120, 1);
+}
+.header-new-menu-container > ul > li > a:not(:first-child):hover
+{
+
+    color: red;
+    transition: all .2s
+}
+.header-new-menu-container > ul > li > a:hover
+{
+    color: red;
+}
+.header-new-menu-container > ul > li > a
+{
+    text-decoration: none;
+    color: white;
+}
+
+.pb-md-5, .py-md-5 {
+    padding-bottom: 3rem !important;
+}
+.gioithieu-md
+{
+    text-align: center;
+    font-size: 40px;
+}
+.gioithieu-text
+{
+    text-indent: 50px;
+    font-size: 20px;
+}
+.hoten
+{
+    font-size: 20px;
+    text-align: center;
+    color: red;
+}
+.lgame
+{
+    text-align: center;
+    font-size: 40px;
+    color: crimson;
+}
+.myBtn
+{
+    text-align: right;
+    font-size: 20px;
+}
